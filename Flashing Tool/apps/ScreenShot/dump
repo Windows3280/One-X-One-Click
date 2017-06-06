@@ -1,0 +1,12 @@
+#!/sbin/sh
+#
+#
+#
+cd /cache/local/
+mkdir -p /cache/local/ScreenShots
+chmod 755 /cache/local/*
+
+/cache/local/screencap -p /cache/local/ScreenShots/Screenshot_`date +%Y_%m_%d_%H.%M.%S`.png
+
+
+
